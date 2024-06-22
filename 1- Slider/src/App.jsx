@@ -2,7 +2,6 @@ import React,{useState, useEffect} from 'react';
 import items from './data';
 import { ImQuotesRight } from "react-icons/im";
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-import SingleItem from './component';
 
 function App(){
   const [people,setPeople] = useState(items);
